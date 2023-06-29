@@ -16,11 +16,14 @@ export const selectPlayerInventory = (playerId: string) => {
 
 export const selectPlayerData = (playerId: string) => {
 	return createSelector(
-		[selectPlayerBalance(playerId), selectPlayerInventory(playerId)] as const,
+		selectPlayerBalance(playerId),
+		selectPlayerInventory(playerId),
 		(balance, inventory): PlayerData | undefined => {
-			if (balance && inventory) {
-				return { balance, inventory };
+			if (!balance || !inventory) {
+				return;
 			}
+
+			return { balance, inventory };
 		},
 	);
 };
