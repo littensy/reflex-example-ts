@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.0.7
     version: 3.0.7
   '@rbxts/reflex':
-    specifier: ^3.3.0
-    version: 3.3.0
+    specifier: ^3.4.0
+    version: 3.4.0
   '@rbxts/services':
     specifier: ^1.5.1
     version: 1.5.1
@@ -160,8 +160,8 @@ packages:
     resolution: {integrity: sha512-IJ1XQFkNF81xCP2YxWtDJbORyiWBnNEneQ26DbHFpx4cIXYPdOgCO3VVCQDNjeEp1rjbkK6YtHoqiXxwEVacZQ==}
     dev: false
 
-  /@rbxts/reflex@3.3.0:
-    resolution: {integrity: sha512-9eQIa6VhptQ/4yTgDxLl+wxNKJx+NryKudO7jRktgQaPxNK1LZ14SSThvbFqAedNB3wULwSVKPvnmSZTQ2Wu+w==}
+  /@rbxts/reflex@3.4.0:
+    resolution: {integrity: sha512-6eMZg9jW7xecqLh19fUQ2RUoyqPZMEkmlZXkPMyZXllvKHD7E20F5QJtkT/TGcyrhTx3vQNutHuZNoBhxxngWA==}
     dev: false
 
   /@rbxts/services@1.5.1:
